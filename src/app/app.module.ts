@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { AdDirective } from './ad.directive';
+import { AdBannerComponent } from './ad-banner/ad-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdDirective
+    AdDirective,
+    AdBannerComponent
   ],
   imports: [
     BrowserModule
